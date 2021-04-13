@@ -4,6 +4,9 @@ import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Hw {
+    static void myMethod(String fName, int age) {
+        System.out.println(fName + "is" + age);
+    }
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -29,10 +32,31 @@ public class Hw {
         int y = 22;
         System.out.println(x >= y);
 
+        int time = 17;
+        if (time < 15) {
+            System.out.println("Good morning.");
+        } else if (time < 30) {
+            System.out.println("Good day.");
+        }  else {
+            System.out.println("Good evening.");
+        }
+
+        String[] cars = {"Chevy", "BMW", "Hummer", "Range Rover"};
+        System.out.println(cars[2]);
+    }
+
+
+
+
+
+
+
+
+
 
 
 
     }
-}
+
 
 
