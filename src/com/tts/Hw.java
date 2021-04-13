@@ -28,9 +28,9 @@ public class Hw {
         System.out.println(Math.max(10, 55));
         System.out.println(Math.sqrt(81));
 
-        int x = 10;
-        int y = 22;
-        System.out.println(x >= y);
+        int a = 10;
+        int b = 22;
+        System.out.println(y >=x );
 
         int time = 17;
         if (time < 15) {
@@ -41,8 +41,8 @@ public class Hw {
             System.out.println("Good evening.");
         }
 
-        String[] cars = {"Chevy", "BMW", "Hummer", "Range Rover"};
-        System.out.println(cars[2]);
+        String() cars = {"Chevy", "BMW", "Hummer", "Range Rover"};
+        System.out.println(cars[6]);
     }
 
 
